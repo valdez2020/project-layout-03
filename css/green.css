@@ -14,7 +14,10 @@ body {
   #menu a:hover {
     background-color:var(--color-verde);
   }
-
+  #login_button{
+    display: none;
+    background-color: var(--color-verde);
+  }
   .buttom-more {
     background-color:var(--color-verde);
   }

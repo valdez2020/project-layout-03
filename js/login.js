@@ -10,10 +10,8 @@ $(document).ready(function(){
         
         if(width > 500 || (form_name !== null && form_name !== undefined)){
             mostrarInfo();
-        }else{
-            ocultarInfo();
         }
-        });
+   });
 };
 
 function mostrarInfo(){

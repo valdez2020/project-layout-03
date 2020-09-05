@@ -15,6 +15,10 @@ body {
   #menu a:hover {
     background-color: var(--color-blue);
   }
+  #login_button{
+    display: none;
+    background-color: var(--color-blue);
+  }
 
   .buttom-more {
     background-color: var(--color-blue);

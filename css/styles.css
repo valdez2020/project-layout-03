@@ -220,6 +220,7 @@ h2{
 
 #login_button{
   display: none;
+  background-color: var(--color-verde);
 }
 
 #aside h4 {

@@ -20,7 +20,10 @@ body {
   border: 1px solid var(--color-rojo);
   box-shadow: 0 0 5px var(--color-rojo);
 }
-  
+#login_button{
+  display: none;
+  background-color: var(--color-rojo);
+}
   .buttom-more {
     background-color: var(--color-rojo);
   }
