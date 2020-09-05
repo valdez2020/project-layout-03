@@ -1,0 +1,41 @@
+:root{
+    --color-verde:rgb(9, 150, 4);
+}
+
+body {
+    background-image: url("../img/css-patterns-green.jpg");
+    background-attachment: fixed;
+  }
+
+#logo {
+    background-color: var(--color-verde);
+  }
+  
+  #menu a:hover {
+    background-color:var(--color-verde);
+  }
+
+  .buttom-more {
+    background-color:var(--color-verde);
+  }
+  #logout{
+    color: var(--color-verde);
+    border: 1px solid var(--color-verde);
+    box-shadow: 0 0 5px var(--color-verde);
+  }
+
+  form input[type="submit"] {
+    background-color:var(--color-verde);
+  }
+
+  footer a {
+    color:var(--color-verde);
+  }
+  
+  footer a:visited {
+    color: var(--color-verde);
+  }
+  
+  #form_contact{
+    border: 2px solid var(--color-verde);
+  }

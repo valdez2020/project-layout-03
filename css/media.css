@@ -1,0 +1,336 @@
+@media(max-width:1302px){
+    #search{
+        height: 50px;
+        padding: 0;
+    }
+    #search input[type="search"]{
+        width: 60%;
+    }
+    
+    #search input[type="button"]{
+        padding-left: 1em;
+}
+
+}
+
+
+@media(max-width: 1134px){
+    .buttom-more{
+        width: 31%;
+        padding: 12px;
+    }
+
+}
+
+
+@media(max-width: 1032px){
+#logo{
+    width: 42%;
+    font-size: 1.1em;
+    }
+    #search{
+        width: 32%;
+    }
+#search input[type="search"]::placeholder {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .post{
+      font-size: 20px;
+  }
+  .post p{
+      height: 216px;
+        overflow: hidden;
+      
+  }
+
+  .buttom-more{
+      width: 30%;
+  }
+}
+
+@media(max-width: 980px){
+
+    #search{
+        width: 40%;
+        padding: 0;
+        height: 50px;
+    }
+}
+
+@media(max-width: 950px){
+    .buttom-more{
+        width: 35%;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 0.8em;
+        
+    }
+    
+
+}
+@media(max-width: 850px){
+#watch{
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 20px;
+}
+}
+
+@media(max-width: 768px){
+    .buttom-more{
+        width: 40%;
+    }
+    form label, form input[type="submit"] {
+        width: 60%;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+    #logo{
+        width: 47%;
+    }
+
+    #search{
+        width: 30%;
+    }
+
+    #search input[type="search"]::placeholder {
+        font-size: 0.8em;
+    }
+
+    #search input[type="button"] {
+        width: 10%;
+}
+
+}
+@media(max-width: 749px){
+    #menu a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #menu ul li:first-child{
+        margin-left:6%;
+    }
+    #search{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 690px){
+
+    #menu ul li:first-child{
+        margin-left: 0;
+    }
+    .buttom-more{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 1.2em;
+    }
+
+    #search {
+        width: 40%;
+    }
+
+}
+
+@media(max-width: 636px){
+
+    #menu ul li {
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width: 636px){
+    #menu a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+#aside h4 {
+    font-size: 16px;
+    margin-top:20px;
+}
+
+}
+
+@media(max-width: 547px){
+    h1 {
+        font-size: 1em;
+    }
+    .buttom-more{
+        font-size: 0.68em;
+    }
+
+    #search input[type="search"]::placeholder {
+        color: gray;
+    }
+}
+
+@media(max-width: 500px){
+    #box{
+        width: 100%;
+    }
+    #acordeon div{
+        height: 120px;
+    }
+    #menu{
+        margin-top: 10px;
+    }
+    #menu ul{
+        text-align: center;
+    }
+    #menu a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    #header{
+        height: 230px;
+    }
+    #logo{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        font-size: 1.7em;
+    }
+    #search{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #search input[type="search"]{
+        width: 80%;
+        height: 40px;
+        padding-left: 0;
+        font-size: 1em;
+        color: rgba(255, 255, 255, 0.842);
+    }
+
+    #search input[type="button"]{
+    width: 15%;
+    padding-left: 0;
+    }
+
+    #selector-theme{
+        width: 40px;
+    }
+
+    #content{
+        display: grid;
+        grid-column: auto;
+       
+    }
+    #aside{
+        grid-row: 1;
+    }
+    #posts{
+        width: 100%;
+    }
+    .post{
+        margin-bottom: 5px;
+    }
+    .post h2{
+        text-align: center;
+    }
+    .post p{
+        font-size: 0.8em;
+    }
+    .date{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .buttom-more{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    #aside{
+        width: 100%;
+    }
+    #login_button{
+        display: block;
+        width: 90%;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        text-align: center; 
+        font-size: 1.4em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        background-color: rgb(9, 150, 4);
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px black;
+        border-radius: 5px;
+    }
+    #info{
+        display: none;
+    }
+    #login_button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    }
+
+    #login_button a:active{
+        box-shadow: 1px 1px 2px black inset;
+    }
+    #img{
+    width: 60%;
+    margin: 0 auto;
+    }
+    #img img{
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px black;
+    }
+    #about p{
+        text-align:center;
+    }
+    #logout{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 455px){
+footer p{
+    font-size: 0.8em;
+}
+footer .to-up{
+    margin: 0 5px 0 0;
+}
+}
+
+@media(max-width: 374px){
+#header{
+height: 250px;
+}
+#selector-theme{
+    width: 25px;
+}
+.icon{
+    font-size: 14px;
+}
+#to-green,
+#to-red,
+#to-blue{
+    width: 20px;
+    height: 20px;
+    margin: 5px 0 10px 0;
+}
+}
+
+@media(max-width: 355px){
+.buttom-more{
+    width: 60%;
+}
+footer{
+  width: 85%; 
+}
+}

@@ -1,0 +1,50 @@
+:root{
+    --color-rojo: rgba(211, 17, 17, 0.877);
+    --color-footer:rgba(253, 39, 39, 0.877);
+}
+
+body {
+    background-image: url("../img/css-patterns-red.jpg");
+    background-attachment: fixed;
+  }
+
+#logo {
+    background-color: var(--color-rojo);
+  }
+  
+  #menu a:hover {
+    background-color: var(--color-rojo);
+  }
+#logout{
+  color: var(--color-rojo);
+  border: 1px solid var(--color-rojo);
+  box-shadow: 0 0 5px var(--color-rojo);
+}
+  
+  .buttom-more {
+    background-color: var(--color-rojo);
+  }
+
+  form input[type="submit"] {
+    background-color: var(--color-rojo);
+  }
+
+  footer .linkedin {
+color: var(--color-footer);
+  }
+  
+  footer .linkedin:visited {
+    color: var(--color-footer);
+  }
+  
+  footer .to-up{
+    color: var(--color-footer);
+  }
+  
+  footer .to-up:visited{
+    color: var(--color-footer);
+  }
+ 
+  #form_contact{
+    border: 2px solid var(--color-rojo);
+  }

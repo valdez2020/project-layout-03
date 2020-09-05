@@ -1,0 +1,125 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <!--estilos css-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link id="theme" rel="stylesheet" href="css/green.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   
+    <!--moment js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/en-ca.min.js"></script>
+
+    <!--mis scripts-->
+<script src="./js/watch.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/login.js"></script>
+
+    <title>Proyecto con JavaScript</title>
+  </head>
+  <body>
+    <div id="selector-theme">
+
+          <div id="to-green" class="icon">I</div>
+          <div id="to-red" class="icon">I</div>
+          <div id="to-blue" class="icon">I</div>
+
+    </div>
+
+    <section id="global">
+      <!--inicio cabecera-->
+      <header id="header">
+        <div id="logo">
+          <h1>Your own way</h1>
+        </div>
+        <div id="search">
+          <form action="">
+            <input
+              type="search"
+              name=""
+              id="search__input"
+              placeholder="Find answers"
+            />
+            <input type="button" value="L" class="icon" />
+          </form>
+        </div>
+        <div class="clearfix"></div>
+
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="watch.html">Watch</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--inicio cabecera-->
+
+      <!--inicio contenido-->
+
+      <section id="content">
+          <div id="box">
+            <!--cargar un reloj-->
+                <div id="watch">
+
+                </div>
+</div>
+
+        </div>
+        <aside id="aside">
+          <div id="login_button"><a href="#">Login</a></div>
+            <div id="info">
+          <div id="about">
+            <h4>who am i?</h4>
+            <div id="img">
+            <img src="./img/caracol.jpg" alt="caracol" />
+          </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+              pariatur inventore facilis voluptas distinctio fuga? Rem
+              consequuntur asperiores dolores cum? Ducimus delectus sunt dolores
+              voluptas natus nobis animi repudiandae ipsa?
+            </p>
+          </div>
+
+          <div id="login">
+              <h4>identify yourself</h4>
+              
+              <form action="">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="form_name">
+                  
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="form_email">
+
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="form_password">
+                  <input type="submit" value="Send">
+
+
+              </form>
+          </div>
+        </div>
+
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+    </section>
+
+    <footer>
+      <p>
+        José Valdez WEB &copy;
+        <a
+          href="https://www.linkedin.com/in/jos%C3%A9-valdez-122638195/"
+          target="_blank" class="linkedin">Linkedin</a>
+        <a href="#" class="to-up">Go up</a>
+      </p>
+    </footer>
+  </body>
+</html>
